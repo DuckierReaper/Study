@@ -4,7 +4,6 @@ const inc = (obj) => {
   if (typeof obj === 'object') {
     obj.n++;
   }
-  console.log(obj);
 };
 
 module.exports = { inc };
