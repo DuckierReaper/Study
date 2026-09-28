@@ -1,10 +1,10 @@
 'use strict';
 
 const fn = () => {
-    var msg = 'print("Hello world")';
+    let msg = 'print("Hello world")';
     console.log(msg);
 };
 
-fn()
+fn();
 
 module.exports = { fn };
