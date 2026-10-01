@@ -5,10 +5,8 @@ const random = (min, max) => {
     max = min;
     min = 0;
   }
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  const span = max - min + 1;
+  return min + Math.floor(Math.random() * span);
 };
 
-console.log(random(15, 30));
-
 module.exports = { random };
-
