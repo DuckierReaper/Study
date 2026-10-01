@@ -7,6 +7,10 @@ const X = {
     m3(x, y, z) {
         return [x, y, z];
     },
+    m4: 1234,
+    m5: 'Hello world',
+    m6: {},
+    m7: () => {console.log('Hello world')},
 };
 const methods = (iface) => {
   const result = [];
