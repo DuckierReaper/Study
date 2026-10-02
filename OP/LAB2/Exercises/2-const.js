@@ -6,6 +6,6 @@ const year = 2009;
 
 // year = 67
 
-console.log(year)
+console.log(year);
 
 module.exports = { year };

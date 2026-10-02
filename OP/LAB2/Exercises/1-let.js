@@ -6,6 +6,6 @@ let name = 'Oleksii';
 
 //name = 'Not Oleksii'
 
-console.log(name)
+console.log(name);
 
 module.exports = { name };

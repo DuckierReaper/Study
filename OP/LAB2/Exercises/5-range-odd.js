@@ -6,7 +6,7 @@
 const rangeOdd = (start, end) => {
     const result = [];
     for (;start <= end; start++) {
-        if (start % 2 !== 0) result.push(start); 
+        if (start % 2 !== 0) { result.push(start); }
     }
     return result;
 };

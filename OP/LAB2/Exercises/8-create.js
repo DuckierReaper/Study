@@ -7,12 +7,11 @@
 
 const createUser = (name, city) => {
     if (typeof name === 'string' && typeof city === 'string') {
-        let result = {name, city};
-        return result;
-    };
+        return {name, city};
+    }
     return 'Objects must be words'
 };
 
-console.log(createUser('Oleksii', 'Sambir'))
+console.log(createUser('Oleksii', 'Sambir'));
 
 module.exports = { createUser };
